@@ -1,25 +1,22 @@
 package com.cursee.new_slab_variants.core.common.registry;
 
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.registries.RegistryObject;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
-public class ModTabsFabric {
+public class ModTabsForge {
 
     public static void register() {}
 
     public static List<Supplier<Item>> slabItemsToAdd = new ArrayList<>();
 
-    public static final CreativeModeTab NEW_SLAB_VARIANTS_TAB = RegistryFabric.registerCreativeModeTab("new_slab_variants_tab",
-            FabricItemGroup.builder()
+    public static final RegistryObject<CreativeModeTab> NEW_SLAB_VARIANTS_TAB = RegistryForge.registerCreativeModeTab("new_slab_variants_tab", () -> CreativeModeTab.builder()
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .title(Component.translatable("itemGroup.newSlabVariants"))
             .icon(() -> new ItemStack(Items.STONE_SLAB))
             .displayItems((displayParameters, output) -> {

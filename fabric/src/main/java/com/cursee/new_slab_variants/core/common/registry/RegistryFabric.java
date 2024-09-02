@@ -30,7 +30,12 @@ public class RegistryFabric {
     }
 
     protected static <T extends Item> T registerItem(String itemID, T item) {
-        return Registry.register(BuiltInRegistries.ITEM, identifier(itemID), item);
+
+        T toReturn = Registry.register(BuiltInRegistries.ITEM, identifier(itemID), item);
+
+        ModTabsFabric.slabItemsToAdd.add(() -> toReturn);
+
+        return toReturn;
     }
 
     protected static <T extends Block> T registerBlockAndBlockItem(String id, T block) {
