@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "new_slab_variants:iron_block_slab",
+    "new_slab_variants:raw_iron_block_slab",
+    "new_slab_variants:iron_ore_slab",
+    "new_slab_variants:deepslate_iron_ore_slab",
+    "new_slab_variants:lapis_block_slab",
+    "new_slab_variants:lapis_ore_slab",
+    "new_slab_variants:deepslate_lapis_ore_slab",
+    "new_slab_variants:copper_block_slab",
+    "new_slab_variants:raw_copper_block_slab",
+    "new_slab_variants:copper_ore_slab",
+    "new_slab_variants:deepslate_copper_ore_slab",
+    "new_slab_variants:weathered_copper_slab",
+    "new_slab_variants:oxidized_copper_slab",
+    "new_slab_variants:exposed_copper_slab",
+    "new_slab_variants:waxed_copper_block_slab"
+  ]
+}

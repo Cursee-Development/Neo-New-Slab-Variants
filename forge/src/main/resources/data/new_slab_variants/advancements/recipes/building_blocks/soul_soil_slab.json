@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soul_soil": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_soil"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_soul_soil"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:soul_soil_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_honey_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honey_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_honey_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:honey_block_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

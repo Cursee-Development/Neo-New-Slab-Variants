@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_calcite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:calcite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_calcite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:calcite_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

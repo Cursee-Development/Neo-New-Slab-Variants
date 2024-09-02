@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "new_slab_variants:ladder_slab",
+    "new_slab_variants:scaffolding_slab"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_white_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_white_terracotta"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:white_terracotta_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

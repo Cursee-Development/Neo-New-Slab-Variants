@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jungle_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_leaves"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_leaves"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:jungle_leaves_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

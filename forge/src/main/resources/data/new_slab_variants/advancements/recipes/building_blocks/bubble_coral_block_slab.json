@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bubble_coral_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bubble_coral_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_bubble_coral_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:bubble_coral_block_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

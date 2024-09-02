@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sponge": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_sponge"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:sponge_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_moss_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:moss_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_moss_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:moss_block_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_iron_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_iron_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_iron_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:deepslate_iron_ore_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

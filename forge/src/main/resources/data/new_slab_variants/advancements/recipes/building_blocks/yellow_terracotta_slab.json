@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_yellow_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_terracotta"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:yellow_terracotta_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

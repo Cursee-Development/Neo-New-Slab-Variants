@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lapis_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_lapis_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:lapis_ore_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

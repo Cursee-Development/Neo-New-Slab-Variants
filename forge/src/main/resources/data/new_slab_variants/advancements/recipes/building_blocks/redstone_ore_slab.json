@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_redstone_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_redstone_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:redstone_ore_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

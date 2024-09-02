@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_cherry_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_cherry_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_cherry_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:stripped_cherry_log_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

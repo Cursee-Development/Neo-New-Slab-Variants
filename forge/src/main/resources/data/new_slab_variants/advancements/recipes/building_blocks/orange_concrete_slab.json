@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_concrete"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_concrete"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:orange_concrete_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

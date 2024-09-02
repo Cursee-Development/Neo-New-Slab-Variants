@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_infested_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:infested_deepslate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_infested_deepslate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:infested_deepslate_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

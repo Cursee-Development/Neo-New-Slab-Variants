@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_concrete"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_concrete"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:blue_concrete_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

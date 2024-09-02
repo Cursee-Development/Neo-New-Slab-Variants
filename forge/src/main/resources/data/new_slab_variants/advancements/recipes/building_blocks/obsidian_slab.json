@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_obsidian"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:obsidian_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

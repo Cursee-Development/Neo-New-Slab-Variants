@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_red_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_red_terracotta"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:red_terracotta_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

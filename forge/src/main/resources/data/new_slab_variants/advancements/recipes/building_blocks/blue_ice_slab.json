@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_ice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_ice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_ice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:blue_ice_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

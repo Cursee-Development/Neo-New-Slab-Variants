@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sea_lantern": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sea_lantern"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_sea_lantern"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:sea_lantern_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}
