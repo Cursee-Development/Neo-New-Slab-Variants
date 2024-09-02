@@ -27,49 +27,5 @@ public class NewSlabVariantsForge {
 
         modEventBus.addListener(NewSlabVariantsClientForge::registerBlockColors);
         modEventBus.addListener(NewSlabVariantsClientForge::registerItemColors);
-
-        modEventBus.addListener(this::onLoadComplete);
-    }
-
-    private void onLoadComplete(FMLLoadCompleteEvent event) {
-//        event.enqueueWork(() -> {
-//
-//            RegistryForge.BLOCKS.getEntries().forEach(registryObject -> {
-//
-//                // block.new_slab_variants.netherite_block_slab
-//                // ->
-//                // "block.new_slab_variants.netherite_block_slab": "Netherite Block Slab",
-//
-//                // System.out.println(asTitle(registryObject.get().getDescriptionId().replace('_', ' ')));
-//
-//                StringBuilder outline = new StringBuilder();
-//                outline
-//                        .append('\"')
-//                        .append(registryObject.get().getDescriptionId())
-//                        .append('\"')
-//                        .append(": ")
-//                        .append('\"')
-//                        .append(asTitle(registryObject.get().getDescriptionId().replace("block.new_slab_variants.", "").replace('_', ' ')))
-//                        .append('\"').append(',');
-//
-//                System.out.println(outline.toString().trim());
-//            });
-//        });
-    }
-
-    public static String asTitle(String input) {
-
-        String[] words = input.split(" ");
-        StringBuilder titleCase = new StringBuilder();
-
-        for (String word : words) {
-            if (!word.isEmpty()) {
-                titleCase.append(Character.toUpperCase(word.charAt(0)))
-                        .append(word.substring(1).toLowerCase())
-                        .append(" ");
-            }
-        }
-
-        return titleCase.toString().trim();
     }
 }
