@@ -2,7 +2,7 @@ package com.cursee.new_slab_variants;
 
 import com.cursee.monolib.core.MonoLibConfiguration;
 import com.cursee.monolib.core.sailing.Sailing;
-import com.cursee.new_slab_variants.core.common.registry.RegistryForge;
+import com.cursee.new_slab_variants.core.common.registry.RegistryNeoForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -19,7 +19,7 @@ public class NewSlabVariantsNeoForge {
 
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        RegistryForge.register(modEventBus);
+        RegistryNeoForge.register(modEventBus);
 
         modEventBus.addListener(NewSlabVariantsClientNeoForge::registerBlockColors);
         modEventBus.addListener(NewSlabVariantsClientNeoForge::registerItemColors);

@@ -9,13 +9,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
 
-public class ModTabsForge {
+public class ModTabsNeoForge {
 
     public static void register() {}
 
     public static List<Supplier<Item>> slabItemsToAdd = new ArrayList<>();
 
-    public static final RegistryObject<CreativeModeTab> NEW_SLAB_VARIANTS_TAB = RegistryForge.registerCreativeModeTab("new_slab_variants_tab", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> NEW_SLAB_VARIANTS_TAB = RegistryNeoForge.registerCreativeModeTab("new_slab_variants_tab", () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .title(Component.translatable("itemGroup.newSlabVariants"))
             .icon(() -> new ItemStack(Items.STONE_SLAB))
