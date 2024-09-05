@@ -10,7 +10,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(Constants.MOD_ID)
 public class NewSlabVariantsForge {
-    // todo: full transparent block rendering (glasses, honey, slime)
     
     public NewSlabVariantsForge() {
     
