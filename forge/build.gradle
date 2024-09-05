@@ -79,6 +79,8 @@ dependencies {
     annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
 
     implementation fg.deobf("curse.maven:monolib-968432:5443121")
+
+    implementation fg.deobf("curse.maven:jei-238222:5691218")
 }
 
 tasks.withType(JavaCompile).configureEach {
