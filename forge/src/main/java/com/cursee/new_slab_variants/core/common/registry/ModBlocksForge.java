@@ -77,6 +77,8 @@ public class ModBlocksForge {
     public static final RegistryObject<Block> REDSTONE_ORE_SLAB = RegistryForge.registerBlockAndBlockItem("redstone_ore_slab", () -> new RedstoneOreSlabBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_ORE)));
     public static final RegistryObject<Block> DEEPSLATE_REDSTONE_ORE_SLAB = RegistryForge.registerBlockAndBlockItem("deepslate_redstone_ore_slab", () -> new RedstoneOreSlabBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
 
+    public static final RegistryObject<Block> TNT_SLAB = RegistryForge.registerBlockAndBlockItem("tnt_slab", () -> new TNTSlabBlock(BlockBehaviour.Properties.copy(Blocks.TNT)));
+
     // WOOL
     public static final RegistryObject<Block> WHITE_WOOL_SLAB = RegistryForge.registerBlockAndBlockItem("white_wool_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
     public static final RegistryObject<Block> LIGHT_GRAY_WOOL_SLAB = RegistryForge.registerBlockAndBlockItem("light_gray_wool_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL)));

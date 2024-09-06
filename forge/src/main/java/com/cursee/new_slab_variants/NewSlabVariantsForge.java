@@ -22,7 +22,7 @@ public class NewSlabVariantsForge {
 
         RegistryForge.register(modEventBus);
 
-        modEventBus.addListener(NewSlabVariantsClientForge::registerBlockColors);
-        modEventBus.addListener(NewSlabVariantsClientForge::registerItemColors);
+        // modEventBus.addListener(NewSlabVariantsClientForge::registerBlockColors);
+        // modEventBus.addListener(NewSlabVariantsClientForge::registerItemColors);
     }
 }

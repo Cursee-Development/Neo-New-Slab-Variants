@@ -1,9 +1,12 @@
 package com.cursee.new_slab_variants;
 
+import com.cursee.new_slab_variants.core.client.entity.renderer.PrimedTNTSlabRenderer;
 import com.cursee.new_slab_variants.core.common.registry.ModBlocksFabric;
+import com.cursee.new_slab_variants.core.common.registry.ModEntityTypesFabric;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
@@ -16,6 +19,8 @@ import net.minecraft.world.level.block.state.BlockState;
 public class NewSlabVariantsClientFabric implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+
+        EntityRendererRegistry.register(ModEntityTypesFabric.PRIMED_TNT_SLAB, PrimedTNTSlabRenderer::new);
         
         ColorProviderRegistry.BLOCK.register((state, tintGetter, pos, tintIndex) -> {
             return FoliageColor.getEvergreenColor();

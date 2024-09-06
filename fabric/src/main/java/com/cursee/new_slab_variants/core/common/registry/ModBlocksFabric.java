@@ -16,6 +16,8 @@ public class ModBlocksFabric {
     public static final Block REDSTONE_ORE_SLAB = RegistryFabric.registerBlockAndBlockItem("redstone_ore_slab", new RedstoneOreSlabBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_ORE)));
     public static final Block DEEPSLATE_REDSTONE_ORE_SLAB = RegistryFabric.registerBlockAndBlockItem("deepslate_redstone_ore_slab", new RedstoneOreSlabBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
 
+    public static final Block TNT_SLAB = RegistryFabric.registerBlockAndBlockItem("tnt_slab", new TNTSlabBlock(BlockBehaviour.Properties.copy(Blocks.TNT)));
+
     // WOOL
     public static final Block WHITE_WOOL_SLAB = RegistryFabric.registerBlockAndBlockItem("white_wool_slab", new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
     public static final Block LIGHT_GRAY_WOOL_SLAB = RegistryFabric.registerBlockAndBlockItem("light_gray_wool_slab", new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL)));

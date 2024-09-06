@@ -1,6 +1,8 @@
 {
   "itemGroup.newSlabVariants": "New Slab Variants",
 
+  "block.new_slab_variants.tnt_slab": "TNT Slab",
+
   "block.new_slab_variants.redstone_lamp_slab": "Redstone Lamp Slab",
   "block.new_slab_variants.redstone_ore_slab": "Redstone Ore Slab",
   "block.new_slab_variants.deepslate_redstone_ore_slab": "Deepslate Redstone Ore Slab",
