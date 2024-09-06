@@ -36,4 +36,9 @@ public class FabricPlatformHelper implements IPlatformHelper {
     public Block getTNTSlabBlock() {
         return ModBlocksFabric.TNT_SLAB;
     }
+
+    @Override
+    public Block getDirtSlabBlock() {
+        return ModBlocksFabric.DIRT_SLAB;
+    }
 }

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "snowy=false,type=bottom": [
+      {
+        "model": "new_slab_variants:block/grass_block_slab"
+      },
+      {
+        "model": "new_slab_variants:block/grass_block_slab",
+        "y": 90
+      },
+      {
+        "model": "new_slab_variants:block/grass_block_slab",
+        "y": 180
+      },
+      {
+        "model": "new_slab_variants:block/grass_block_slab",
+        "y": 270
+      }
+    ],
+    "snowy=false,type=double": [
+      {
+        "model": "minecraft:block/grass_block"
+      },
+      {
+        "model": "minecraft:block/grass_block",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/grass_block",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/grass_block",
+        "y": 270
+      }
+    ],
+    "snowy=false,type=top": [
+      {
+        "model": "new_slab_variants:block/grass_block_slab_top"
+      },
+      {
+        "model": "new_slab_variants:block/grass_block_slab_top",
+        "y": 90
+      },
+      {
+        "model": "new_slab_variants:block/grass_block_slab_top",
+        "y": 180
+      },
+      {
+        "model": "new_slab_variants:block/grass_block_slab_top",
+        "y": 270
+      }
+    ],
+    "snowy=true,type=bottom": {
+      "model": "new_slab_variants:block/grass_block_snow_slab"
+    },
+    "snowy=true,type=double": {
+      "model": "minecraft:block/grass_block_snow"
+    },
+    "snowy=true,type=top": {
+      "model": "new_slab_variants:block/grass_block_snow_slab_top"
+    }
+  }
+}

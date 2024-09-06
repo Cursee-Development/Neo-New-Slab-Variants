@@ -79,6 +79,9 @@ public class ModBlocksNeoForge {
 
     public static final RegistryObject<Block> TNT_SLAB = RegistryNeoForge.registerBlockAndBlockItem("tnt_slab", () -> new TNTSlabBlock(BlockBehaviour.Properties.copy(Blocks.TNT)));
 
+    public static final RegistryObject<Block> DIRT_SLAB = RegistryNeoForge.registerBlockAndBlockItem("dirt_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> GRASS_BLOCK_SLAB = RegistryNeoForge.registerBlockAndBlockItem("grass_block_slab", () -> new GrassSlabBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+
     // WOOL
     public static final RegistryObject<Block> WHITE_WOOL_SLAB = RegistryNeoForge.registerBlockAndBlockItem("white_wool_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
     public static final RegistryObject<Block> LIGHT_GRAY_WOOL_SLAB = RegistryNeoForge.registerBlockAndBlockItem("light_gray_wool_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL)));

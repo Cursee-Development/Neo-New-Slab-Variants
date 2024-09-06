@@ -3,6 +3,7 @@ package com.cursee.new_slab_variants.platform.services;
 import com.cursee.new_slab_variants.core.common.entity.PrimedTNTSlab;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 
 public interface IPlatformHelper {
 
@@ -41,4 +42,6 @@ public interface IPlatformHelper {
     EntityType<? extends PrimedTNTSlab> getPrimedTNTSlabEntityType();
 
     Block getTNTSlabBlock();
+
+    Block getDirtSlabBlock();
 }

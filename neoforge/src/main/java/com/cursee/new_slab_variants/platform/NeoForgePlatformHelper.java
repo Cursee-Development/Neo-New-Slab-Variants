@@ -38,4 +38,9 @@ public class NeoForgePlatformHelper implements IPlatformHelper {
     public Block getTNTSlabBlock() {
         return ModBlocksNeoForge.TNT_SLAB.get();
     }
+
+    @Override
+    public Block getDirtSlabBlock() {
+        return ModBlocksNeoForge.DIRT_SLAB.get();
+    }
 }
