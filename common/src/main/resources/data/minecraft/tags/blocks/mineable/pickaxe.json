@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "new_slab_variants:redstone_lamp_slab",
     "new_slab_variants:redstone_ore_slab",
@@ -55,6 +56,7 @@
     "new_slab_variants:purple_concrete_slab",
     "new_slab_variants:magenta_concrete_slab",
     "new_slab_variants:pink_concrete_slab",
+
     "new_slab_variants:sea_lantern_slab",
     "new_slab_variants:glowstone_slab",
     "new_slab_variants:shroomlight_slab",
@@ -81,6 +83,7 @@
     "new_slab_variants:calcite_slab",
     "new_slab_variants:tuff_slab",
     "new_slab_variants:dripstone_block_slab",
+    "new_slab_variants:obsidian_slab",
     "new_slab_variants:netherrack_slab",
     "new_slab_variants:crimson_nylium_slab",
     "new_slab_variants:warped_nylium_slab",
@@ -157,9 +160,7 @@
     "new_slab_variants:redstone_block_slab",
     "new_slab_variants:emerald_block_slab",
     "new_slab_variants:lapis_block_slab",
-    "new_slab_variants:diamond_block_slab",
     "new_slab_variants:netherite_block_slab",
-
     "new_slab_variants:copper_block_slab",
     "new_slab_variants:exposed_copper_slab",
     "new_slab_variants:weathered_copper_slab",
