@@ -21,7 +21,7 @@ public class ModTabsFabric {
     public static final CreativeModeTab NEW_SLAB_VARIANTS_TAB = RegistryFabric.registerCreativeModeTab("new_slab_variants_tab",
             FabricItemGroup.builder()
             .title(Component.translatable("itemGroup.newSlabVariants"))
-            .icon(() -> new ItemStack(Items.STONE_SLAB))
+            .icon(() -> new ItemStack(ModBlocksFabric.DARK_OAK_LOG_SLAB))
             .displayItems((displayParameters, output) -> {
 
                 // start vanilla slabs
