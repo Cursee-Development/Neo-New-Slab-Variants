@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "new_slab_variants:tnt_slab",
+    "new_slab_variants:redstone_lamp_slab",
+    "new_slab_variants:redstone_ore_slab",
+    "new_slab_variants:deepslate_redstone_ore_slab",
+
     "new_slab_variants:white_wool_slab",
     "new_slab_variants:light_gray_wool_slab",
     "new_slab_variants:gray_wool_slab",

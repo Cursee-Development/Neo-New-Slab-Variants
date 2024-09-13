@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "new_slab_variants:redstone_lamp_slab",
+    "new_slab_variants:redstone_ore_slab",
+    "new_slab_variants:deepslate_redstone_ore_slab",
     "new_slab_variants:iron_block_slab",
     "new_slab_variants:raw_iron_block_slab",
     "new_slab_variants:iron_ore_slab",

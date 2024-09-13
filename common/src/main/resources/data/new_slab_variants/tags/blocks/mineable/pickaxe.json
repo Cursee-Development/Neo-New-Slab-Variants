@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "new_slab_variants:redstone_lamp_slab",
+    "new_slab_variants:redstone_ore_slab",
+    "new_slab_variants:deepslate_redstone_ore_slab",
+
     "new_slab_variants:gold_ore_slab",
     "new_slab_variants:deepslate_gold_ore_slab",
     "new_slab_variants:iron_ore_slab",

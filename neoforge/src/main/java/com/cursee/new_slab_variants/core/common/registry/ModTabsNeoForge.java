@@ -82,7 +82,7 @@ public class ModTabsNeoForge {
                 // end vanilla slabs
 
                 for (Supplier<Item> slabItem : slabItemsToAdd) {
-                    if (!slabItem.get().getDescriptionId().contains("ladder") && !slabItem.get().getDescriptionId().contains("scaffolding")) {
+                    if (!slabItem.get().getDescriptionId().contains("ladder") && !slabItem.get().getDescriptionId().contains("scaffolding") && !slabItem.get().getDescriptionId().contains("dirt") && !slabItem.get().getDescriptionId().contains("grass_block")) {
                         output.accept(slabItem.get());
                     }
                 }
