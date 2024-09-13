@@ -37,7 +37,6 @@ public class ModBlocksForge {
             Blocks.SMOOTH_STONE_SLAB,
             Blocks.SANDSTONE_SLAB,
             Blocks.CUT_SANDSTONE_SLAB,
-            Blocks.PETRIFIED_OAK_SLAB,
             Blocks.COBBLESTONE_SLAB,
             Blocks.BRICK_SLAB,
             Blocks.STONE_BRICK_SLAB,
@@ -72,15 +71,53 @@ public class ModBlocksForge {
             Blocks.POLISHED_BLACKSTONE_BRICK_SLAB
     };
 
-    // PROBLEMATIC
-    public static final RegistryObject<Block> REDSTONE_LAMP_SLAB = RegistryForge.registerBlockAndBlockItem("redstone_lamp_slab", () -> new RedstoneLampSlabBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_LAMP)));
-    public static final RegistryObject<Block> REDSTONE_ORE_SLAB = RegistryForge.registerBlockAndBlockItem("redstone_ore_slab", () -> new RedstoneOreSlabBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_ORE)));
-    public static final RegistryObject<Block> DEEPSLATE_REDSTONE_ORE_SLAB = RegistryForge.registerBlockAndBlockItem("deepslate_redstone_ore_slab", () -> new RedstoneOreSlabBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
+    // WOODEN
+    public static final RegistryObject<Block> OAK_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+    public static final RegistryObject<Block> OAK_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("oak_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_OAK_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_OAK_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_oak_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+    public static final RegistryObject<Block> SPRUCE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("spruce_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
+    public static final RegistryObject<Block> SPRUCE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("spruce_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_spruce_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_spruce_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
+    public static final RegistryObject<Block> BIRCH_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("birch_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
+    public static final RegistryObject<Block> BIRCH_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("birch_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_birch_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_birch_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
+    public static final RegistryObject<Block> JUNGLE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("jungle_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB)));
+    public static final RegistryObject<Block> JUNGLE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("jungle_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_jungle_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_jungle_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB)));
+    public static final RegistryObject<Block> ACACIA_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("acacia_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB)));
+    public static final RegistryObject<Block> ACACIA_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("acacia_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_acacia_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_acacia_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB)));
+    public static final RegistryObject<Block> DARK_OAK_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("dark_oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB)));
+    public static final RegistryObject<Block> DARK_OAK_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("dark_oak_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_dark_oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_dark_oak_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB)));
+    public static final RegistryObject<Block> MANGROVE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("mangrove_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_SLAB)));
+    public static final RegistryObject<Block> MANGROVE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("mangrove_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_MANGROVE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_mangrove_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_MANGROVE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_mangrove_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_SLAB)));
+    public static final RegistryObject<Block> CHERRY_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("cherry_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
+    public static final RegistryObject<Block> CHERRY_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("cherry_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_CHERRY_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_cherry_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_CHERRY_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_cherry_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
+    public static final RegistryObject<Block> BAMBOO_BLOCK_SLAB = RegistryForge.registerBlockAndBlockItem("bamboo_block_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_SLAB)));
+    public static final RegistryObject<Block> STRIPPED_BAMBOO_BLOCK_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_bamboo_block_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_SLAB)));
 
-    public static final RegistryObject<Block> TNT_SLAB = RegistryForge.registerBlockAndBlockItem("tnt_slab", () -> new TNTSlabBlock(BlockBehaviour.Properties.copy(Blocks.TNT)));
-
-    public static final RegistryObject<Block> DIRT_SLAB = RegistryForge.registerBlockAndBlockItem("dirt_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)));
-    public static final RegistryObject<Block> GRASS_BLOCK_SLAB = RegistryForge.registerBlockAndBlockItem("grass_block_slab", () -> new GrassSlabBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
+    // LEAVES
+    public static final RegistryObject<Block> OAK_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("oak_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+    public static final RegistryObject<Block> SPRUCE_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("spruce_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LEAVES)));
+    public static final RegistryObject<Block> BIRCH_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("birch_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LEAVES)));
+    public static final RegistryObject<Block> JUNGLE_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("jungle_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_LEAVES)));
+    public static final RegistryObject<Block> ACACIA_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("acacia_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LEAVES)));
+    public static final RegistryObject<Block> DARK_OAK_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("dark_oak_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_LEAVES)));
+    public static final RegistryObject<Block> MANGROVE_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("mangrove_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_LEAVES)));
+    public static final RegistryObject<Block> CHERRY_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("cherry_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LEAVES)));
+    public static final RegistryObject<Block> AZALEA_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("azalea_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.AZALEA_LEAVES)));
+    public static final RegistryObject<Block> FLOWERING_AZALEA_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("flowering_azalea_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.FLOWERING_AZALEA_LEAVES)));
 
     // WOOL
     public static final RegistryObject<Block> WHITE_WOOL_SLAB = RegistryForge.registerBlockAndBlockItem("white_wool_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)));
@@ -175,53 +212,15 @@ public class ModBlocksForge {
     public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_SLAB = RegistryForge.registerBlockAndBlockItem("magenta_stained_glass_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS)));
     public static final RegistryObject<Block> PINK_STAINED_GLASS_SLAB = RegistryForge.registerBlockAndBlockItem("pink_stained_glass_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS)));
 
-    // WOODEN
-    public static final RegistryObject<Block> OAK_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
-    public static final RegistryObject<Block> OAK_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("oak_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_OAK_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_OAK_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_oak_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
-    public static final RegistryObject<Block> SPRUCE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("spruce_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
-    public static final RegistryObject<Block> SPRUCE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("spruce_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_SPRUCE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_spruce_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_SPRUCE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_spruce_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_SLAB)));
-    public static final RegistryObject<Block> BIRCH_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("birch_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
-    public static final RegistryObject<Block> BIRCH_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("birch_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_BIRCH_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_birch_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_BIRCH_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_birch_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)));
-    public static final RegistryObject<Block> JUNGLE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("jungle_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB)));
-    public static final RegistryObject<Block> JUNGLE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("jungle_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_JUNGLE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_jungle_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_JUNGLE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_jungle_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_SLAB)));
-    public static final RegistryObject<Block> ACACIA_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("acacia_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB)));
-    public static final RegistryObject<Block> ACACIA_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("acacia_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_ACACIA_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_acacia_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_ACACIA_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_acacia_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_SLAB)));
-    public static final RegistryObject<Block> DARK_OAK_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("dark_oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB)));
-    public static final RegistryObject<Block> DARK_OAK_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("dark_oak_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_dark_oak_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_DARK_OAK_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_dark_oak_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_SLAB)));
-    public static final RegistryObject<Block> MANGROVE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("mangrove_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_SLAB)));
-    public static final RegistryObject<Block> MANGROVE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("mangrove_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_MANGROVE_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_mangrove_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_MANGROVE_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_mangrove_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_SLAB)));
-    public static final RegistryObject<Block> CHERRY_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("cherry_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
-    public static final RegistryObject<Block> CHERRY_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("cherry_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_CHERRY_LOG_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_cherry_log_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_CHERRY_WOOD_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_cherry_wood_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_SLAB)));
-    public static final RegistryObject<Block> BAMBOO_BLOCK_SLAB = RegistryForge.registerBlockAndBlockItem("bamboo_block_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_SLAB)));
-    public static final RegistryObject<Block> STRIPPED_BAMBOO_BLOCK_SLAB = RegistryForge.registerBlockAndBlockItem("stripped_bamboo_block_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_SLAB)));
+    // PROBLEMATIC
+    public static final RegistryObject<Block> REDSTONE_LAMP_SLAB = RegistryForge.registerBlockAndBlockItem("redstone_lamp_slab", () -> new RedstoneLampSlabBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_LAMP)));
+    public static final RegistryObject<Block> REDSTONE_ORE_SLAB = RegistryForge.registerBlockAndBlockItem("redstone_ore_slab", () -> new RedstoneOreSlabBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_ORE)));
+    public static final RegistryObject<Block> DEEPSLATE_REDSTONE_ORE_SLAB = RegistryForge.registerBlockAndBlockItem("deepslate_redstone_ore_slab", () -> new RedstoneOreSlabBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_REDSTONE_ORE)));
 
-    // LEAVES
-    public static final RegistryObject<Block> OAK_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("oak_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
-    public static final RegistryObject<Block> SPRUCE_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("spruce_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LEAVES)));
-    public static final RegistryObject<Block> BIRCH_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("birch_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LEAVES)));
-    public static final RegistryObject<Block> JUNGLE_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("jungle_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_LEAVES)));
-    public static final RegistryObject<Block> ACACIA_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("acacia_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LEAVES)));
-    public static final RegistryObject<Block> DARK_OAK_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("dark_oak_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_LEAVES)));
-    public static final RegistryObject<Block> MANGROVE_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("mangrove_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_LEAVES)));
-    public static final RegistryObject<Block> CHERRY_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("cherry_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_LEAVES)));
-    public static final RegistryObject<Block> AZALEA_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("azalea_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.AZALEA_LEAVES)));
-    public static final RegistryObject<Block> FLOWERING_AZALEA_LEAVES_SLAB = RegistryForge.registerBlockAndBlockItem("flowering_azalea_leaves_slab", () -> new LeavesSlabBlock(BlockBehaviour.Properties.copy(Blocks.FLOWERING_AZALEA_LEAVES)));
+    public static final RegistryObject<Block> TNT_SLAB = RegistryForge.registerBlockAndBlockItem("tnt_slab", () -> new TNTSlabBlock(BlockBehaviour.Properties.copy(Blocks.TNT)));
+
+    public static final RegistryObject<Block> DIRT_SLAB = RegistryForge.registerBlockAndBlockItem("dirt_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)));
+    public static final RegistryObject<Block> GRASS_BLOCK_SLAB = RegistryForge.registerBlockAndBlockItem("grass_block_slab", () -> new GrassSlabBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
 
     // FUNCTIONAL
     public static final RegistryObject<Block> SEA_LANTERN_SLAB = RegistryForge.registerBlockAndBlockItem("sea_lantern_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SEA_LANTERN)));

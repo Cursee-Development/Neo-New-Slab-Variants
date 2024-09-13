@@ -22,14 +22,14 @@ public class ModTabsForge {
             .icon(() -> new ItemStack(ModBlocksForge.CHERRY_LOG_SLAB.get()))
             .displayItems((displayParameters, output) -> {
 
-                for (ItemLike itemLike : ModBlocksForge.slabs) {
-                    output.accept(itemLike);
-                }
-
                 for (Supplier<Item> slabItem : slabItemsToAdd) {
                     if (!slabItem.get().getDescriptionId().contains("ladder") && !slabItem.get().getDescriptionId().contains("scaffolding") && !slabItem.get().getDescriptionId().contains("dirt") && !slabItem.get().getDescriptionId().contains("grass_block")) {
                         output.accept(slabItem.get());
                     }
+                }
+
+                for (ItemLike itemLike : ModBlocksForge.slabs) {
+                    output.accept(itemLike);
                 }
             }).build());
 }
