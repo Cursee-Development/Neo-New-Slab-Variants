@@ -18,7 +18,7 @@ public class ModTabsForge {
     public static final RegistryObject<CreativeModeTab> NEW_SLAB_VARIANTS_TAB = RegistryForge.registerCreativeModeTab("new_slab_variants_tab", () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .title(Component.translatable("itemGroup.newSlabVariants"))
-            .icon(() -> new ItemStack(ModBlocksForge.DARK_OAK_LOG_SLAB.get()))
+            .icon(() -> new ItemStack(ModBlocksForge.CHERRY_LOG_SLAB.get()))
             .displayItems((displayParameters, output) -> {
 
                 // start vanilla slabs
