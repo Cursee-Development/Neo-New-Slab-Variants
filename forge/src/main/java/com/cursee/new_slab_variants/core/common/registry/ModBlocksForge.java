@@ -7,12 +7,12 @@ import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.RegistryObject;
 
-@SuppressWarnings("unused")
+// @SuppressWarnings("unused")
 public class ModBlocksForge {
 
     public static void register() {}
 
-    private static final Block[] slabs = new Block[] {
+    public static final Block[] slabs = new Block[] {
             Blocks.CUT_COPPER_SLAB,
             Blocks.EXPOSED_CUT_COPPER_SLAB,
             Blocks.WEATHERED_CUT_COPPER_SLAB,
