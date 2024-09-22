@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gilded_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_gilded_blackstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:gilded_blackstone_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_basalt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_basalt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_basalt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:smooth_basalt_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

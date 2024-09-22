@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_black_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_concrete"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_black_concrete"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:black_concrete_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

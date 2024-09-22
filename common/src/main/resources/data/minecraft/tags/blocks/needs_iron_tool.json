@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "new_slab_variants:diamond_block_slab",
+    "new_slab_variants:netherite_block_slab"
+  ]
+}

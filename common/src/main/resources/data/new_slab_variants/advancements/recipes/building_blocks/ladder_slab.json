@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ladder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ladder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_ladder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:ladder_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

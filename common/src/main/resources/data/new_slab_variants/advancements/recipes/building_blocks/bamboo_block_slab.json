@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bamboo_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:bamboo_block_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

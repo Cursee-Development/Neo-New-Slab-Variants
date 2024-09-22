@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "new_slab_variants:mud_slab",
+    "new_slab_variants:clay_slab",
+    "new_slab_variants:packed_mud_slab"
+  ]
+}

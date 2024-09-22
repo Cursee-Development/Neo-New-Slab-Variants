@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magenta_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_concrete"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_magenta_concrete"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:magenta_concrete_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

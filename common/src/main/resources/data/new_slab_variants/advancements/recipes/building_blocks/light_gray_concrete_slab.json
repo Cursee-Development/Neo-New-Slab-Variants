@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_gray_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_concrete"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_light_gray_concrete"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:light_gray_concrete_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

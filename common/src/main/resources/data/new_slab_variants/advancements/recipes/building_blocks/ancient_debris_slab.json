@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ancient_debris": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ancient_debris"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_ancient_debris"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:ancient_debris_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

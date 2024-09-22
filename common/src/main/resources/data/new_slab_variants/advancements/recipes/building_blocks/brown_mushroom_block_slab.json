@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_mushroom_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_mushroom_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_mushroom_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:brown_mushroom_block_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

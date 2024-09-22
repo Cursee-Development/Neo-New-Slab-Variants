@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bone_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_bone_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:bone_block_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

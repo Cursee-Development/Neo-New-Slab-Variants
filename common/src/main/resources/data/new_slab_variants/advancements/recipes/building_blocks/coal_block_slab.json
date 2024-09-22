@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coal_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_coal_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:coal_block_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

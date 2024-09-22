@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gray_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_gray_wool"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:gray_wool_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

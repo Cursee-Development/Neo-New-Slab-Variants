@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_terracotta"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:orange_terracotta_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

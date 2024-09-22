@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soul_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_sand"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_soul_sand"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:soul_sand_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

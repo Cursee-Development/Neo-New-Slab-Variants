@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_redstone_lamp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_lamp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_redstone_lamp"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:redstone_lamp_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

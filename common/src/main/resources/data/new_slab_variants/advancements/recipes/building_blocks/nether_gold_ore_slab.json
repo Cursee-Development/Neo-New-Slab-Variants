@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_gold_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_gold_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_gold_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:nether_gold_ore_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

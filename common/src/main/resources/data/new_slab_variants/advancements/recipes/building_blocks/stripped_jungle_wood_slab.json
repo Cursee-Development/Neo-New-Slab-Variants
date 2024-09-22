@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_jungle_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_jungle_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_stripped_jungle_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:stripped_jungle_wood_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

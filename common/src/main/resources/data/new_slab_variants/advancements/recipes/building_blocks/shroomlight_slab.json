@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shroomlight": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shroomlight"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_shroomlight"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:shroomlight_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

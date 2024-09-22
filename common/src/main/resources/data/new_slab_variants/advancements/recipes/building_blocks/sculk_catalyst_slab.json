@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sculk_catalyst": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sculk_catalyst"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_sculk_catalyst"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:sculk_catalyst_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

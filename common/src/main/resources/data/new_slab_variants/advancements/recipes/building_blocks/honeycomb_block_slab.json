@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_honeycomb_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honeycomb_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_honeycomb_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:honeycomb_block_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

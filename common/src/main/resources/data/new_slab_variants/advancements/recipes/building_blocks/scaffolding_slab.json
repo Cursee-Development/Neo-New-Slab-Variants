@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_scaffolding": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:scaffolding"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_scaffolding"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "new_slab_variants:scaffolding_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}
