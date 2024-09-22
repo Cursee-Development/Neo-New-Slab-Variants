@@ -1,13 +1,45 @@
 {
   "variants": {
-    "type=bottom": {
+
+    "axis=x,type=bottom": {
+      "model": "new_slab_variants:block/stripped_spruce_wood_horizontal_slab",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,type=double": {
+      "model": "minecraft:block/stripped_spruce_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,type=top": {
+      "model": "new_slab_variants:block/stripped_spruce_wood_horizontal_slab_top",
+      "x": 90,
+      "y": 90
+    },
+    
+
+    "axis=y,type=bottom": {
       "model": "new_slab_variants:block/stripped_spruce_wood_slab"
     },
-    "type=double": {
+    "axis=y,type=double": {
       "model": "minecraft:block/stripped_spruce_wood"
     },
-    "type=top": {
+    "axis=y,type=top": {
       "model": "new_slab_variants:block/stripped_spruce_wood_slab_top"
+    },
+    
+
+    "axis=z,type=bottom": {
+      "model": "new_slab_variants:block/stripped_spruce_wood_horizontal_slab",
+      "x": 90
+    },
+    "axis=z,type=double": {
+      "model": "minecraft:block/stripped_spruce_wood",
+      "x": 90
+    },
+    "axis=z,type=top": {
+      "model": "new_slab_variants:block/stripped_spruce_wood_horizontal_slab_top",
+      "x": 90
     }
   }
 }
