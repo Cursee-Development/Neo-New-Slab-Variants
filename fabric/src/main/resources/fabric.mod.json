@@ -17,6 +17,9 @@
     "entrypoints": {
         "main": [
             "com.cursee.new_slab_variants.NewSlabVariantsFabric"
+        ],
+        "client": [
+            "com.cursee.new_slab_variants.NewSlabVariantsClientFabric"
         ]
     },
     "mixins": [
